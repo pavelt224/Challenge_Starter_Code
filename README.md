@@ -1,5 +1,12 @@
 # PyPoll_Challenge_Starter_Code
-Python Challenge (Module 3)
+
+
+
+
+# Purpose of the election audit
+
+The goal of this project is to determine which county is the most populous based on votes. In module 3, we learnt how to read csv files in Python and use our coding skills to execute the data. We had to look through the data file's four columns to find the one that contained all of the candidates and figure out how many votes each received. We wrote the results to a text file with a winner after calculating the total votes and percentage of the total. We're trying something similar but different in the module 3 challenge. This time, we'll look at the total votes and percentages for each county in the counties column to see which one is the largest.
+
 
 # Overview of Project
 A Colorado Board of Elections has requested to complete the election audit of a recent local congressional election.
@@ -11,22 +18,25 @@ A Colorado Board of Elections has requested to complete the election audit of a 
 5. Calculate the percentage of votes each candidate won.
 6. Determine the winner of the election based on popular vote.
 
-![Expected Output](./Images/Data-Module-3-Challenge.png)
 
 # Resources
 * Data Source: election_results.csv
 * Software: Python 3.7.6, Visual Studio 1.61.2
 
 
-* How many votes were cast in this election?
-    - Total_Votes: 369,711
 
 ## Results as recorded in my election_analysis.txt file
-![my analysis](./Images/election_analysis.txt.png)
+![election_analysis txt](https://user-images.githubusercontent.com/93852380/143988290-94e94736-6cb3-41bc-a2bb-ee166bbd1921.png)
 
 ## Deliverable 3: Analysis of the Election Audit
 
+
 ### Election-Audit Results:
+![Total votes and Election Winner](https://user-images.githubusercontent.com/93852380/143988255-1d00707d-54a1-451e-b3e2-4fafe52986a8.png)
+
+> ***How many votes were cast in this election?***
+ > - **Total_Votes Cast:** 369,711
+ > 
 > ***County Votes:***
 
 > - **Jefferson** county has `10.5%` total percentage with a total votes of **38,855**
@@ -49,4 +59,5 @@ A Colorado Board of Elections has requested to complete the election audit of a 
 > - In addition, **Diana DeGette** has the total percentage votes of `73.8%
 > - **Diana DeGette** is the Winner
 
-
+## Challenges and Difficulties Encountered
+You could miss some creative methods to look at the data while learning Python, examining the code, and constructing a solid script for analysis. Engineering and data analysis must be balanced.
